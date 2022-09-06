@@ -16,7 +16,8 @@ Esquema Hibernate / Maven
 6. Criar pacote "model.dao" e arquivo java "ConnFactory";
 7. Criar pacote "view" e implementar a classe principal.
 Esquema da sessão properties:
-```bash <properties>
+```bash 
+<properties>
  <property name="hibernate.connection.url" value 
 ="jdbc:mysql://localhost:3306/agenda"/>
  <property name="hibernate.dialect" value = 
